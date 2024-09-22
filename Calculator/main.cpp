@@ -1,11 +1,9 @@
 #include <print>
 #include <iostream>
+#include "calculations.h"
 
 int main()
 {
-	int x{};
-	std::print("Enter a number: ");
-	std::cin >> x;
-	std::cout << "You entered " << x;
+	calculate();
 	return 0;
 }
